@@ -23,6 +23,17 @@ function App() {
         <h1>∙ V I C T V S ∙ EXAMS</h1>
       </header>
       <main>
+        <form>
+          Filter <br/>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name"></input>
+          <br />
+          <label for="date">Date</label>
+          <input type="text" id="date" name="date"></input>
+          <br />
+          <label for="location">Location</label>
+          <input type="text" id="location" name="location"></input>
+        </form>
         {isLoadingExams ? (
           <p>Loading exams ...</p>
         ) : (

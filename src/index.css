@@ -3,5 +3,72 @@ body {
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  color: white;
+  background-color: black;
 }
 
+main {
+  max-width: 600px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+h3 {
+  margin: 0;
+}
+
+p {
+  font-family: Helvetica, sans-serif;
+  margin: 0;
+  margin-top: 0.5rem;
+}
+
+i {
+  color: #ffffff88;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0.5rem;
+  padding: 0.5rem;
+
+  border-width: 1px;
+  border-radius: 2px;
+  border-style: solid;
+  border-color: #ffffff66;
+  border-bottom-color: white;
+}
+
+.mainline {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  border-width: 1px;
+  border-bottom-style: solid;
+  border-color: #ffffff66;
+}
+
+.spreadline {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 327px) {
+  .mainline {
+    display: block;
+  }
+  .spreadline {
+    display: block;
+  }
+}

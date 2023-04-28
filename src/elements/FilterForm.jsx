@@ -26,7 +26,7 @@ function FilterForm({ setFilterName, setFilterDate, setFilterLocation }) {
   return (
     <form>
       <div className="mainline">
-        <h3>FILTER</h3>
+        <h3>FILTER:</h3>
         <button
           onClick={(event) => {
             event.preventDefault();

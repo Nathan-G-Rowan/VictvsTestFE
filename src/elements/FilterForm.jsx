@@ -41,7 +41,7 @@ function FilterForm({ setFilterName, setFilterDate, setFilterLocation }) {
       </div>
       <div className="spreadline">
         <div>
-          <label htmlFor="category-dropdown">Candidate: </label>
+          <label htmlFor="category-dropdown">Candidate </label>
 
           <div className="dropdown" id="category-dropdown">
             <button
@@ -75,7 +75,7 @@ function FilterForm({ setFilterName, setFilterDate, setFilterLocation }) {
         </div>
 
         <div>
-          <label htmlFor="date">Date: </label>
+          <label htmlFor="date">Date </label>
           <input
             type="date"
             id="date"
@@ -87,7 +87,7 @@ function FilterForm({ setFilterName, setFilterDate, setFilterLocation }) {
           />
         </div>
         <div>
-          <label htmlFor="location">Location: </label>
+          <label htmlFor="location">Location </label>
           <input
             type="text"
             id="location"

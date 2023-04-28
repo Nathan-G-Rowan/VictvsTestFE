@@ -60,6 +60,13 @@ function App() {
           </div>
         )}
       </main>
+      <div className="centerContents">
+        <a href="https://github.com/Nathan-G-Rowan">
+          <i>
+            github.com/Nathan-G-Rowan
+          </i>
+        </a>
+      </div>
     </div>
   );
 }

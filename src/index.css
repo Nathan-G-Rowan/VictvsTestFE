@@ -36,18 +36,6 @@ i {
   color: #ffffff88;
 }
 
-input {
-  background-color: transparent;
-
-  margin: 0.25rem;
-
-  border-width: 1px;
-  border-radius: 2px;
-  border-style: solid;
-  border-color: #ffffff66;
-  border-bottom-color: white;
-}
-
 ul {
   list-style-type: none;
   margin: 0;
@@ -57,6 +45,8 @@ ul {
 li {
   margin: 0.5rem;
   padding: 0.5rem;
+
+  background-color: #111111;
 
   border-width: 1px;
   border-radius: 2px;

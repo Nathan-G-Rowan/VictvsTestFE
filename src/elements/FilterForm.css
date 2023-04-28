@@ -1,0 +1,92 @@
+form {
+  border-bottom: solid 1px #ffffff66;
+  margin-bottom: 2rem;
+}
+
+h3 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+input {
+  background-color: transparent;
+  color: white;
+  font-size: medium;
+
+  padding: 0.1rem 1rem;
+  margin: 0px;
+  margin-top: 0.35rem;
+
+  border-width: 1px;
+  border-radius: 2px;
+  border-style: solid;
+  border-color: #ffffff66;
+  border-bottom-color: white;
+}
+
+button {
+  color: white;
+  font-size: medium;
+  padding: 0.1rem 1rem;
+
+  background-color: black;
+
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 2px;
+
+  border-color: #ffffff66;
+  border-bottom-color: white;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropButton {
+  min-width: 8.7rem;
+
+  margin: 0px;
+  margin-top: 0.25rem;
+}
+
+.dropContent {
+  width: 100%;
+  z-index: 1;
+
+  display: none;
+  position: absolute;
+
+  padding: 0;
+  margin: 0;
+}
+
+.dropContent button {
+  display: block;
+
+  font-size: medium;
+  padding: 0.1rem;
+
+  margin: 0px;
+  margin-top: 0.25rem;
+  width: 100%;
+}
+
+.dropContent button:disabled {
+  background-color: black;
+  color: #ffffff66;
+}
+.dropdown:hover .dropContent {
+  display: block;
+}
+
+.centerContents {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 0.25rem;
+}
